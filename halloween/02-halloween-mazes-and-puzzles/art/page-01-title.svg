@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 850" width="850" height="850">
+  <title>Halloween Mazes &amp; Puzzles for Kids — Title Page</title>
+
+  <defs>
+    <!-- ===== Reusable character / icon symbols (shared style library for the whole book) ===== -->
+
+    <symbol id="ic-star" viewBox="0 0 100 100">
+      <path d="M50,6 L60.6,35.4 L91.9,36.4 L67.1,55.6 L75.9,85.6 L50,68 L24.1,85.6 L32.9,55.6 L8.2,36.4 L39.4,35.4 Z"
+            fill="none" stroke="#000" stroke-width="3.5" stroke-linejoin="round"/>
+    </symbol>
+
+    <symbol id="ic-moon" viewBox="0 0 100 100">
+      <path d="M52,8 A42,42 0 1,0 52,92 A33,33 0 1,1 52,8 Z"
+            fill="none" stroke="#000" stroke-width="3.5" stroke-linejoin="round"/>
+      <circle cx="34" cy="34" r="2.6" fill="#000"/>
+      <circle cx="30" cy="55" r="1.8" fill="#000"/>
+      <circle cx="42" cy="68" r="2.2" fill="#000"/>
+    </symbol>
+
+    <symbol id="ic-bat" viewBox="0 0 120 50">
+      <path d="M60,30 L51,26
+               L34,15 L38,28 L18,19 L24,31 L6,26 L19,37 L51,32 L60,38
+               L69,32 L101,37 L114,26 L96,31 L102,19 L82,28 L86,15 L69,26 Z"
+            fill="#000" stroke="#000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M55,21 L56,11 L60,19 L64,11 L65,21" fill="#000" stroke="#000" stroke-width="2" stroke-linejoin="round"/>
+      <circle cx="57" cy="22" r="1.6" fill="#fff"/>
+      <circle cx="63" cy="22" r="1.6" fill="#fff"/>
+    </symbol>
+
+    <symbol id="ic-candycorn" viewBox="0 0 60 70">
+      <path d="M30,4 C24,4 20,10 18,18 L14,50 C13,58 18,66 30,66 C42,66 47,58 46,50 L42,18 C40,10 36,4 30,4 Z"
+            fill="#fff" stroke="#000" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M20.5,27 Q30,31.5 39.5,27" fill="none" stroke="#000" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M15.5,46 Q30,51 44.5,46" fill="none" stroke="#000" stroke-width="2.4" stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="ch-ghost" viewBox="0 0 100 110">
+      <path d="M18,92
+               C15,70 15,50 20,38
+               C27,20 38,12 50,12
+               C62,12 73,20 80,38
+               C85,50 85,70 82,92
+               C77,85 74,98 68,91
+               C63,84 60,98 54,91
+               C51,87 49,87 46,91
+               C40,98 37,84 32,91
+               C26,98 23,85 18,92 Z"
+            fill="#fff" stroke="#000" stroke-width="4.2" stroke-linejoin="round" stroke-linecap="round"/>
+      <ellipse cx="39" cy="50" rx="6.5" ry="9" fill="#000"/>
+      <ellipse cx="61" cy="50" rx="6.5" ry="9" fill="#000"/>
+      <circle cx="50" cy="67" r="6" fill="none" stroke="#000" stroke-width="2.8"/>
+      <path d="M25,44 C22,40 22,36 25,33" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M75,44 C78,40 78,36 75,33" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="ch-pumpkin" viewBox="0 0 100 100">
+      <path d="M46,18 C44,10 48,6 53,7 C51,11 51,15 53,18" fill="none" stroke="#000" stroke-width="3.4" stroke-linecap="round"/>
+      <path d="M50,92 C24,92 10,74 10,56 C10,34 27,20 50,20 C73,20 90,34 90,56 C90,74 76,92 50,92 Z"
+            fill="#fff" stroke="#000" stroke-width="4.2" stroke-linejoin="round"/>
+      <path d="M31,24 C25,42 25,70 33,89" fill="none" stroke="#000" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M50,21 C48,42 48,70 50,91" fill="none" stroke="#000" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M69,24 C75,42 75,70 67,89" fill="none" stroke="#000" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M33,50 L44,50 L37,63 Z" fill="#000" stroke="#000" stroke-width="2.6" stroke-linejoin="round"/>
+      <path d="M67,50 L56,50 L63,63 Z" fill="#000" stroke="#000" stroke-width="2.6" stroke-linejoin="round"/>
+      <path d="M30,73 Q36,82 42,73 Q46,84 50,73 Q54,84 58,73 Q64,82 70,73"
+            fill="none" stroke="#000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <symbol id="ic-puzzle" viewBox="0 0 100 100">
+      <path d="M18,18 L37,18 C37,4 63,4 63,18 L82,18 L82,37
+               C96,37 96,63 82,63 L82,82 L18,82 L18,18 Z"
+            fill="#fff" stroke="#000" stroke-width="4.5" stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- corridor style used for both this decorative path and the real maze pages -->
+    <marker id="mz-arrow" viewBox="0 0 20 20" refX="14" refY="10" markerWidth="9" markerHeight="9" orient="auto">
+      <path d="M2,2 L18,10 L2,18 C6,14 6,6 2,2 Z" fill="#000"/>
+    </marker>
+  </defs>
+
+  <!-- ===== Page background ===== -->
+  <rect x="0" y="0" width="850" height="850" fill="#fff"/>
+
+  <!-- ===== Decorative double-line margin frame (echoes the maze-wall motif) ===== -->
+  <rect x="40" y="40" width="770" height="770" rx="34" ry="34"
+        fill="none" stroke="#000" stroke-width="5"/>
+  <rect x="57" y="57" width="736" height="736" rx="24" ry="24"
+        fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- ===== Sky accents: moon, stars, bat ===== -->
+  <use href="#ic-moon" x="86" y="80" width="86" height="86"/>
+  <use href="#ic-star" x="330" y="78" width="30" height="30"/>
+  <use href="#ic-star" x="240" y="120" width="20" height="20"/>
+  <use href="#ic-star" x="590" y="70" width="24" height="24"/>
+  <use href="#ic-bat"  x="648" y="98" width="118" height="50" transform="rotate(-6 707 123)"/>
+
+  <!-- ===== Title lettering ===== -->
+  <text x="425" y="255" text-anchor="middle" font-family="Fredoka" font-weight="700"
+        font-size="112" fill="#000" letter-spacing="1">HALLOWEEN</text>
+  <text x="425" y="322" text-anchor="middle" font-family="Fredoka" font-weight="600"
+        font-size="52" fill="#000">Mazes &amp; Puzzles for Kids</text>
+
+  <!-- thin hand-drawn underline swash -->
+  <path d="M180,345 C300,357 550,357 670,345" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- ===== Decorative mini "maze path" connecting a ghost to a jack-o'-lantern ===== -->
+  <g>
+    <path d="M168,520 C260,480 300,560 400,530 C470,510 470,560 560,540 C610,528 630,540 665,522"
+          fill="none" stroke="#000" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M168,548 C260,508 300,588 400,558 C470,538 470,588 560,568 C610,556 630,568 665,550"
+          fill="none" stroke="#000" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M172,534 C265,496 302,574 400,544 C470,524 470,574 560,554 C608,542 628,554 660,536"
+          fill="none" stroke="#000" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="1 12"/>
+  </g>
+
+  <!-- start arrow -->
+  <path d="M120,536 L162,536" stroke="#000" stroke-width="4" fill="none" marker-end="url(#mz-arrow)"/>
+
+  <use href="#ch-ghost"   x="52"  y="470" width="90" height="100"/>
+  <use href="#ch-pumpkin" x="645" y="478" width="94" height="94"/>
+
+  <!-- little spider dangling from the frame for extra spooky-cute texture -->
+  <g stroke="#000" stroke-width="2" fill="none">
+    <path d="M770,95 L770,150"/>
+    <circle cx="770" cy="160" r="9" fill="#fff" stroke-width="2.6"/>
+    <circle cx="770" cy="150" r="6" fill="#fff" stroke-width="2.6"/>
+    <path d="M762,155 L748,148 M762,159 L746,159 M762,163 L748,170 M778,155 L792,148 M778,159 L794,159 M778,163 L792,170"/>
+  </g>
+
+  <!-- ===== Puzzle-piece corner accents ===== -->
+  <use href="#ic-puzzle" x="80" y="686" width="72" height="72" transform="rotate(-10 116 722)"/>
+  <use href="#ic-puzzle" x="698" y="686" width="72" height="72" transform="rotate(14 734 722)"/>
+
+  <!-- candy-corn trio, small accent between the puzzle pieces -->
+  <use href="#ic-candycorn" x="382" y="686" width="36" height="42"/>
+  <use href="#ic-candycorn" x="342" y="694" width="32" height="37" transform="rotate(-8 358 712)"/>
+  <use href="#ic-candycorn" x="428" y="694" width="32" height="37" transform="rotate(8 444 712)"/>
+
+  <!-- ===== Subtitle / tagline ===== -->
+  <text x="425" y="775" text-anchor="middle" font-family="Poppins" font-weight="600"
+        font-size="26" fill="#000">35 Spooky-Fun Activities for Ages 4&#8211;8</text>
+  <text x="425" y="800" text-anchor="middle" font-family="Poppins" font-weight="400"
+        font-size="15" fill="#333">Mazes &#8226; Word Searches &#8226; Dot-to-Dots &#8226; Full Answer Key</text>
+
+</svg>
