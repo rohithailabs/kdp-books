@@ -28,8 +28,8 @@ Each row's Canva media ID is reusable in future `generate-image` (as `imageRefer
 | 29 | Bobbing for Apples | generated-art/page-29.png | MAHWIi-MqP4 | https://www.canva.com/M/MAHWIi-MqP4 |
 | 30 | Cat on a Pumpkin | generated-art/page-30.png | MAHWIqlaO48 | https://www.canva.com/M/MAHWIqlaO48 |
 | 31 | Peek-a-Boo Ghost | generated-art/page-31.png (verified: ghost peeking from behind pumpkin, matches brief) | MAHWIroSab4 | https://www.canva.com/M/MAHWIroSab4 |
-| 32 | Scarecrow in the Wind | NOT DOWNLOADED — persistent Canva `quota_exceeded` on `create-design` (1 confirming attempt after page 25/31 pattern was established) | MAHWItTEuPI | https://www.canva.com/M/MAHWItTEuPI |
-| 33 | Brave Little Lion | NOT DOWNLOADED — persistent Canva `quota_exceeded` on `create-design` (1 confirming attempt after page 25/31/32 pattern was established) | MAHWIml1vOs | https://www.canva.com/M/MAHWIml1vOs |
+| 32 | Scarecrow in the Wind | generated-art/page-32.png (verified: scarecrow in cornfield with wind-blown leaves, matches brief; note dimensions 1587x2245, slightly tall rectangle not perfectly square — fine for layout, may want a light crop) | MAHWItTEuPI | https://www.canva.com/M/MAHWItTEuPI |
+| 33 | Brave Little Lion | generated-art/page-33.png (verified: child in lion costume holding treat bag, matches brief) | MAHWIml1vOs | https://www.canva.com/M/MAHWIml1vOs |
 | 34 | Spooky Tree | generated-art/page-34.png | MAHWIgSNqFw | https://www.canva.com/M/MAHWIgSNqFw |
 | 35 | Witch and the Castle | generated-art/page-35.png | MAHWIkP7sdM | https://www.canva.com/M/MAHWIkP7sdM |
 | 36 | Party Pumpkin | generated-art/page-36.png | MAHWIpwTz4s | https://www.canva.com/M/MAHWIpwTz4s |
