@@ -2,7 +2,8 @@
 
 ## Publishing Specs
 - **Trim size:** 8.5" x 8.5" (square)
-- **Final interior page count:** 44 pages (3 front matter + 40 coloring pages + 1 closing certificate)
+- **Final interior page count:** 45 pages (4 front matter — title, copyright, belongs-to, parent note — + 40 coloring pages + 1 closing certificate)
+- **Publisher / copyright holder:** Rohith AI Labs
 - **Interior ink:** Black & white / black ink only (standard, cheapest KDP interior option — required anyway for coloring pages)
 - **Paper:** White paper recommended (better contrast for coloring than cream)
 - **Binding:** Paperback, perfect bound
