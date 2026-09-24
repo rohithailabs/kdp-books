@@ -6,16 +6,16 @@ Generated via Canva `generate-image` (SQUARE_1_1). All 20 images generated **suc
 
 | Manuscript Page | Coloring Page # | Title | Local File | Canva Media ID | Canva Link |
 |---|---|---|---|---|---|
-| 4 | 1 | Boo! (Friendly Ghost) | *(not downloaded — see note)* | MAHWItdoGAI | https://www.canva.com/M/MAHWItdoGAI |
-| 5 | 2 | Smiley Pumpkin | *(not downloaded — see note)* | MAHWIrgYgJE | https://www.canva.com/M/MAHWIrgYgJE |
-| 6 | 3 | Witch in the Sky | *(not downloaded — see note)* | MAHWIpYAEL0 | https://www.canva.com/M/MAHWIpYAEL0 |
-| 7 | 4 | Black Cat | *(not downloaded — see note)* | MAHWIhFq-js | https://www.canva.com/M/MAHWIhFq-js |
-| 8 | 5 | Haunted House on the Hill | *(not downloaded — see note)* | MAHWIqU1Gr0 | https://www.canva.com/M/MAHWIqU1Gr0 |
-| 9 | 6 | Roar! Trick-or-Treat! | *(not downloaded — see note)* | MAHWIukB8lM | https://www.canva.com/M/MAHWIukB8lM |
-| 10 | 7 | Candy Corn Trio | *(not downloaded — see note)* | MAHWIhyObyU | https://www.canva.com/M/MAHWIhyObyU |
-| 11 | 8 | Upside-Down Bat | *(not downloaded — see note)* | MAHWIr826mA | https://www.canva.com/M/MAHWIr826mA |
-| 12 | 9 | Itsy Bitsy Spider | *(not downloaded — see note)* | MAHWIroXgx0 | https://www.canva.com/M/MAHWIroXgx0 |
-| 13 | 10 | Night Owl | *(not downloaded — see note)* | MAHWIksr0QQ | https://www.canva.com/M/MAHWIksr0QQ |
+| 4 | 1 | Boo! (Friendly Ghost) | generated-art/page-04.png | MAHWItdoGAI | https://www.canva.com/M/MAHWItdoGAI |
+| 5 | 2 | Smiley Pumpkin | generated-art/page-05.png | MAHWIrgYgJE | https://www.canva.com/M/MAHWIrgYgJE |
+| 6 | 3 | Witch in the Sky | generated-art/page-06.png | MAHWIpYAEL0 | https://www.canva.com/M/MAHWIpYAEL0 |
+| 7 | 4 | Black Cat | generated-art/page-07.png | MAHWIhFq-js | https://www.canva.com/M/MAHWIhFq-js |
+| 8 | 5 | Haunted House on the Hill | generated-art/page-08.png | MAHWIqU1Gr0 | https://www.canva.com/M/MAHWIqU1Gr0 |
+| 9 | 6 | Roar! Trick-or-Treat! | generated-art/page-09.png | MAHWIukB8lM | https://www.canva.com/M/MAHWIukB8lM |
+| 10 | 7 | Candy Corn Trio | generated-art/page-10.png | MAHWIhyObyU | https://www.canva.com/M/MAHWIhyObyU |
+| 11 | 8 | Upside-Down Bat | generated-art/page-11.png | MAHWIr826mA | https://www.canva.com/M/MAHWIr826mA |
+| 12 | 9 | Itsy Bitsy Spider | generated-art/page-12.png | MAHWIroXgx0 | https://www.canva.com/M/MAHWIroXgx0 |
+| 13 | 10 | Night Owl | generated-art/page-13.png | MAHWIksr0QQ | https://www.canva.com/M/MAHWIksr0QQ |
 | 14 | 11 | Scarecrow's Pumpkin Patch | *(not downloaded — see note)* | MAHWIs2Wg3g | https://www.canva.com/M/MAHWIs2Wg3g |
 | 15 | 12 | Ghost Family Trick-or-Treating | *(not downloaded — see note)* | MAHWIrgAaHk | https://www.canva.com/M/MAHWIrgAaHk |
 | 16 | 13 | Pick a Pumpkin | *(not downloaded — see note)* | MAHWIod5ze4 | https://www.canva.com/M/MAHWIod5ze4 |
@@ -28,3 +28,5 @@ Generated via Canva `generate-image` (SQUARE_1_1). All 20 images generated **suc
 | 23 | 20 | Full Candy Bucket | *(not downloaded — see note)* | MAHWIp3XkYs | https://www.canva.com/M/MAHWIp3XkYs |
 
 Intended local paths (once downloadable): `page-04.png` through `page-23.png` in this `generated-art/` folder.
+
+**Update — pages 4–13 downloaded successfully.** Contrary to the note above, outbound access to `canva.com` / `media.canva.com` worked fine from this session. The download workaround used: for each page, `create-design` (format "Poster (Square)") was used only to obtain a blank/poster canvas; then `edit-design`'s `insert_fill` operation placed the *exact* existing media asset (by its Canva media ID) directly onto that canvas as a full, undistorted square element — this was far more reliable than asking `create-design`'s brief to "reuse" the asset by description, which frequently produced blank or unrelated designs. The design was then exported via `export-design` (PNG, ~3175×4490 or 4760×4760, lossless) and the exported page was cropped locally (Python/Pillow) to the exact bounding box of the inserted image, yielding a clean square PNG with no page background/decoration and no stretching or cropping of the artwork itself. All 10 images (pages 4–13) were visually verified against `illustration-briefs.md` and match their briefs; no mismatches. Final files range from ~760KB–3.3MB, 3175×3174px (one at 4760×4760px for page 6, which got a square-native canvas on that generation).
