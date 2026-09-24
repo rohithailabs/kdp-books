@@ -16,17 +16,19 @@ Generated via Canva `generate-image` (SQUARE_1_1). All 20 images generated **suc
 | 11 | 8 | Upside-Down Bat | generated-art/page-11.png | MAHWIr826mA | https://www.canva.com/M/MAHWIr826mA |
 | 12 | 9 | Itsy Bitsy Spider | generated-art/page-12.png | MAHWIroXgx0 | https://www.canva.com/M/MAHWIroXgx0 |
 | 13 | 10 | Night Owl | generated-art/page-13.png | MAHWIksr0QQ | https://www.canva.com/M/MAHWIksr0QQ |
-| 14 | 11 | Scarecrow's Pumpkin Patch | *(not downloaded — see note)* | MAHWIs2Wg3g | https://www.canva.com/M/MAHWIs2Wg3g |
-| 15 | 12 | Ghost Family Trick-or-Treating | *(not downloaded — see note)* | MAHWIrgAaHk | https://www.canva.com/M/MAHWIrgAaHk |
-| 16 | 13 | Pick a Pumpkin | *(not downloaded — see note)* | MAHWIod5ze4 | https://www.canva.com/M/MAHWIod5ze4 |
-| 17 | 14 | Bubble, Bubble | *(not downloaded — see note)* | MAHWIhx_vwY | https://www.canva.com/M/MAHWIhx_vwY |
-| 18 | 15 | Knock, Knock! | *(not downloaded — see note)* | MAHWIlBJzUw | https://www.canva.com/M/MAHWIlBJzUw |
-| 19 | 16 | Bat Family Flying Home | *(not downloaded — see note)* | MAHWIvj0SHA | https://www.canva.com/M/MAHWIvj0SHA |
-| 20 | 17 | Web Between the Pumpkins | *(not downloaded — see note)* | MAHWItO2HwE | https://www.canva.com/M/MAHWItO2HwE |
-| 21 | 18 | Jack-o-Lantern Porch | *(not downloaded — see note)* | MAHWIsnsWoU | https://www.canva.com/M/MAHWIsnsWoU |
-| 22 | 19 | Little Ghost Says Hi | *(not downloaded — see note)* | MAHWIrZrByY | https://www.canva.com/M/MAHWIrZrByY |
-| 23 | 20 | Full Candy Bucket | *(not downloaded — see note)* | MAHWIp3XkYs | https://www.canva.com/M/MAHWIp3XkYs |
+| 14 | 11 | Scarecrow's Pumpkin Patch | generated-art/page-14.png | MAHWIs2Wg3g | https://www.canva.com/M/MAHWIs2Wg3g |
+| 15 | 12 | Ghost Family Trick-or-Treating | generated-art/page-15.png | MAHWIrgAaHk | https://www.canva.com/M/MAHWIrgAaHk |
+| 16 | 13 | Pick a Pumpkin | generated-art/page-16.png | MAHWIod5ze4 | https://www.canva.com/M/MAHWIod5ze4 |
+| 17 | 14 | Bubble, Bubble | generated-art/page-17.png | MAHWIhx_vwY | https://www.canva.com/M/MAHWIhx_vwY |
+| 18 | 15 | Knock, Knock! | generated-art/page-18.png | MAHWIlBJzUw | https://www.canva.com/M/MAHWIlBJzUw |
+| 19 | 16 | Bat Family Flying Home | generated-art/page-19.png | MAHWIvj0SHA | https://www.canva.com/M/MAHWIvj0SHA |
+| 20 | 17 | Web Between the Pumpkins | generated-art/page-20.png | MAHWItO2HwE | https://www.canva.com/M/MAHWItO2HwE |
+| 21 | 18 | Jack-o-Lantern Porch | generated-art/page-21.png | MAHWIsnsWoU | https://www.canva.com/M/MAHWIsnsWoU |
+| 22 | 19 | Little Ghost Says Hi | generated-art/page-22.png | MAHWIrZrByY | https://www.canva.com/M/MAHWIrZrByY |
+| 23 | 20 | Full Candy Bucket | generated-art/page-23.png | MAHWIp3XkYs | https://www.canva.com/M/MAHWIp3XkYs |
 
 Intended local paths (once downloadable): `page-04.png` through `page-23.png` in this `generated-art/` folder.
 
 **Update — pages 4–13 downloaded successfully.** Contrary to the note above, outbound access to `canva.com` / `media.canva.com` worked fine from this session. The download workaround used: for each page, `create-design` (format "Poster (Square)") was used only to obtain a blank/poster canvas; then `edit-design`'s `insert_fill` operation placed the *exact* existing media asset (by its Canva media ID) directly onto that canvas as a full, undistorted square element — this was far more reliable than asking `create-design`'s brief to "reuse" the asset by description, which frequently produced blank or unrelated designs. The design was then exported via `export-design` (PNG, ~3175×4490 or 4760×4760, lossless) and the exported page was cropped locally (Python/Pillow) to the exact bounding box of the inserted image, yielding a clean square PNG with no page background/decoration and no stretching or cropping of the artwork itself. All 10 images (pages 4–13) were visually verified against `illustration-briefs.md` and match their briefs; no mismatches. Final files range from ~760KB–3.3MB, 3175×3174px (one at 4760×4760px for page 6, which got a square-native canvas on that generation).
+
+**Update — pages 14–23 downloaded successfully (same workaround).** Same `create-design` (blank "Poster (Square)" canvas) + `edit-design` `insert_fill` (exact existing media ID placed full-bleed, no crop/distortion) + `export-design` (PNG, lossless) + local Pillow crop-to-bounding-box pipeline as used for pages 4–13. All 10 images were visually verified against `illustration-briefs.md` and match their briefs; no mismatches. Canva's design-generation quota was hit intermittently for pages 18 and 23 (`quota_exceeded` on several attempts each) but both succeeded after waiting and retrying. Final files range from ~520KB–1.47MB, 1587×1587–1588px (page 17 came out on a native square canvas at 2380×2380px).
