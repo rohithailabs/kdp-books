@@ -1,21 +1,12 @@
 # Generated Art Manifest — Pages 24–44
 
-**Status note:** All 21 images generated successfully via `mcp__Canva__generate-image`.
-Local download to `/home/user/kdp-books/halloween/01-spooky-coloring-book/generated-art/page-NN.png`
-was **not possible** in this session: the environment's network egress policy blocks
-`media.canva.com` (confirmed via direct curl through the proxy and independently via WebFetch —
-both returned an explicit EGRESS_BLOCKED error for that host). No `page-NN.png` files exist yet.
+**Status note:** All 21 images generated successfully via `mcp__Canva__generate-image`, and all
+21 are now downloaded at full resolution to `generated-art/page-NN.png` (network access to
+Canva hosts was broadened mid-session; downloads used `create-design` + `edit-design`
+`insert_fill` with the exact media ID + `export-design`, verified visually against
+illustration-briefs.md).
 
-To get the files onto local disk, either:
-1. Broaden this environment's network access to allow `media.canva.com` (Environment settings →
-   Network access → allowed domains), then re-fetch each media asset's full-resolution URL and
-   curl it down, or
-2. Open each "Open generated image" link below in a Canva session with browser/download access
-   and export/download from there, or
-3. Use the Canva media IDs below with Canva's design/export tools from a session that has
-   working egress to Canva's CDN.
-
-Each row's Canva media ID is reusable in future `generate-image` (as `imageReferences`),
+Each row's Canva media ID remains reusable in future `generate-image` (as `imageReferences`),
 `get-assets`, or design-building calls without needing to regenerate the art.
 
 | Manuscript Page # | Title (from manuscript.md) | Local file path (pending download) | Canva media ID | Generated-image link |
