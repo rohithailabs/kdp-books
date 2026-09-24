@@ -20,24 +20,24 @@ Each row's Canva media ID is reusable in future `generate-image` (as `imageRefer
 
 | Manuscript Page # | Title (from manuscript.md) | Local file path (pending download) | Canva media ID | Generated-image link |
 |---|---|---|---|---|
-| 24 | Witch's Hat and Broom | generated-art/page-24.png (not yet downloaded) | MAHWImh6wPo | https://www.canva.com/M/MAHWImh6wPo |
-| 25 | Friendly Mummy | generated-art/page-25.png (not yet downloaded) | MAHWIvQo-d4 | https://www.canva.com/M/MAHWIvQo-d4 |
-| 26 | Silly Vampire Bat | generated-art/page-26.png (not yet downloaded) | MAHWIjIYZHg | https://www.canva.com/M/MAHWIjIYZHg |
-| 27 | Pumpkin Parade | generated-art/page-27.png (not yet downloaded) | MAHWIp77KZ4 | https://www.canva.com/M/MAHWIp77KZ4 |
-| 28 | Wise Old Owl | generated-art/page-28.png (not yet downloaded) | MAHWIh2aAMk | https://www.canva.com/M/MAHWIh2aAMk |
-| 29 | Bobbing for Apples | generated-art/page-29.png (not yet downloaded) | MAHWIi-MqP4 | https://www.canva.com/M/MAHWIi-MqP4 |
-| 30 | Cat on a Pumpkin | generated-art/page-30.png (not yet downloaded) | MAHWIqlaO48 | https://www.canva.com/M/MAHWIqlaO48 |
-| 31 | Peek-a-Boo Ghost | generated-art/page-31.png (not yet downloaded) | MAHWIroSab4 | https://www.canva.com/M/MAHWIroSab4 |
-| 32 | Scarecrow in the Wind | generated-art/page-32.png (not yet downloaded) | MAHWItTEuPI | https://www.canva.com/M/MAHWItTEuPI |
-| 33 | Brave Little Lion | generated-art/page-33.png (not yet downloaded) | MAHWIml1vOs | https://www.canva.com/M/MAHWIml1vOs |
-| 34 | Spooky Tree | generated-art/page-34.png (not yet downloaded) | MAHWIgSNqFw | https://www.canva.com/M/MAHWIgSNqFw |
-| 35 | Witch and the Castle | generated-art/page-35.png (not yet downloaded) | MAHWIkP7sdM | https://www.canva.com/M/MAHWIkP7sdM |
-| 36 | Party Pumpkin | generated-art/page-36.png (not yet downloaded) | MAHWIpwTz4s | https://www.canva.com/M/MAHWIpwTz4s |
-| 37 | Moonlight Parade | generated-art/page-37.png (not yet downloaded) | MAHWImk5_mk | https://www.canva.com/M/MAHWImk5_mk |
-| 38 | Spider with a Bow | generated-art/page-38.png (not yet downloaded) | MAHWIu4ingc | https://www.canva.com/M/MAHWIu4ingc |
-| 39 | Bats Around the House | generated-art/page-39.png (not yet downloaded) | MAHWInxd5W8 | https://www.canva.com/M/MAHWInxd5W8 |
-| 40 | Cauldron Friends | generated-art/page-40.png (not yet downloaded) | MAHWIioeeCY | https://www.canva.com/M/MAHWIioeeCY |
-| 41 | Starry Halloween Night | generated-art/page-41.png (not yet downloaded) | MAHWIuS0Zfs | https://www.canva.com/M/MAHWIuS0Zfs |
-| 42 | Trick-or-Treat Sign | generated-art/page-42.png (not yet downloaded) | MAHWIqaY5VM | https://www.canva.com/M/MAHWIqaY5VM |
-| 43 | Happy Halloween! | generated-art/page-43.png (not yet downloaded) | MAHWIjaB5eI | https://www.canva.com/M/MAHWIjaB5eI |
-| 44 | Great Job! Certificate (decorative border, no text) | generated-art/page-44.png (not yet downloaded) | MAHWIonFIEo | https://www.canva.com/M/MAHWIonFIEo |
+| 24 | Witch's Hat and Broom | generated-art/page-24.png | MAHWImh6wPo | https://www.canva.com/M/MAHWImh6wPo |
+| 25 | Friendly Mummy | NOT DOWNLOADED — MISMATCH - needs manual review (retries exported a blank white page; final retries blocked by Canva design-generation quota exhaustion in this session) | MAHWIvQo-d4 | https://www.canva.com/M/MAHWIvQo-d4 |
+| 26 | Silly Vampire Bat | generated-art/page-26.png | MAHWIjIYZHg | https://www.canva.com/M/MAHWIjIYZHg |
+| 27 | Pumpkin Parade | generated-art/page-27.png | MAHWIp77KZ4 | https://www.canva.com/M/MAHWIp77KZ4 |
+| 28 | Wise Old Owl | generated-art/page-28.png | MAHWIh2aAMk | https://www.canva.com/M/MAHWIh2aAMk |
+| 29 | Bobbing for Apples | generated-art/page-29.png | MAHWIi-MqP4 | https://www.canva.com/M/MAHWIi-MqP4 |
+| 30 | Cat on a Pumpkin | generated-art/page-30.png | MAHWIqlaO48 | https://www.canva.com/M/MAHWIqlaO48 |
+| 31 | Peek-a-Boo Ghost | NOT DOWNLOADED — MISMATCH - needs manual review (design generation repeatedly failed: internal_error then quota_exceeded; never produced a usable export in this session) | MAHWIroSab4 | https://www.canva.com/M/MAHWIroSab4 |
+| 32 | Scarecrow in the Wind | NOT DOWNLOADED — MISMATCH - needs manual review (retry returned unrelated koi-fish artwork instead of the scarecrow/cornfield scene; further retries blocked by Canva design-generation quota exhaustion) | MAHWItTEuPI | https://www.canva.com/M/MAHWItTEuPI |
+| 33 | Brave Little Lion | NOT DOWNLOADED — MISMATCH - needs manual review (retry returned unrelated bunny-and-duck garden artwork instead of the lion-costume child; further retries blocked by Canva design-generation quota exhaustion) | MAHWIml1vOs | https://www.canva.com/M/MAHWIml1vOs |
+| 34 | Spooky Tree | generated-art/page-34.png | MAHWIgSNqFw | https://www.canva.com/M/MAHWIgSNqFw |
+| 35 | Witch and the Castle | generated-art/page-35.png | MAHWIkP7sdM | https://www.canva.com/M/MAHWIkP7sdM |
+| 36 | Party Pumpkin | generated-art/page-36.png | MAHWIpwTz4s | https://www.canva.com/M/MAHWIpwTz4s |
+| 37 | Moonlight Parade | generated-art/page-37.png | MAHWImk5_mk | https://www.canva.com/M/MAHWImk5_mk |
+| 38 | Spider with a Bow | generated-art/page-38.png | MAHWIu4ingc | https://www.canva.com/M/MAHWIu4ingc |
+| 39 | Bats Around the House | generated-art/page-39.png | MAHWInxd5W8 | https://www.canva.com/M/MAHWInxd5W8 |
+| 40 | Cauldron Friends | generated-art/page-40.png | MAHWIioeeCY | https://www.canva.com/M/MAHWIioeeCY |
+| 41 | Starry Halloween Night | generated-art/page-41.png | MAHWIuS0Zfs | https://www.canva.com/M/MAHWIuS0Zfs |
+| 42 | Trick-or-Treat Sign | generated-art/page-42.png | MAHWIqaY5VM | https://www.canva.com/M/MAHWIqaY5VM |
+| 43 | Happy Halloween! | generated-art/page-43.png (note: cat rendered as solid black fill rather than pure line art; text "HAPPY HALLOWEEN" present and legible, matches brief) | MAHWIjaB5eI | https://www.canva.com/M/MAHWIjaB5eI |
+| 44 | Great Job! Certificate (decorative border, no text) | generated-art/page-44.png | MAHWIonFIEo | https://www.canva.com/M/MAHWIonFIEo |
