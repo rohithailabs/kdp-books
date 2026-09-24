@@ -13,19 +13,19 @@ OUT = os.path.join(HERE, "Spooky_Fun_Interior.pdf")
 
 PAGE = 2550  # 8.5in @ 300dpi
 MARGIN = 225  # 0.75in
-FONT_DIR = "/usr/share/fonts/truetype/dejavu"
+FONT_DIR = "/usr/share/fonts/opentype/comic-neue"
 
 def font(path, size):
     return ImageFont.truetype(os.path.join(FONT_DIR, path), size)
 
-F_TITLE_XL = font("DejaVuSans-Bold.ttf", 150)
-F_TITLE_L = font("DejaVuSans-Bold.ttf", 100)
-F_TITLE_M = font("DejaVuSans-Bold.ttf", 70)
-F_PAGE_TITLE = font("DejaVuSans-Bold.ttf", 64)
-F_BODY = font("DejaVuSans.ttf", 40)
-F_BODY_BOLD = font("DejaVuSans-Bold.ttf", 40)
-F_SMALL = font("DejaVuSans.ttf", 32)
-F_SCRIPT = font("DejaVuSerif-Bold.ttf", 120)
+F_TITLE_XL = font("ComicNeue-Bold.otf", 170)
+F_TITLE_L = font("ComicNeue-Bold.otf", 115)
+F_TITLE_M = font("ComicNeue-Bold.otf", 80)
+F_PAGE_TITLE = font("ComicNeue-Bold.otf", 72)
+F_BODY = font("ComicNeue-Regular.otf", 44)
+F_BODY_BOLD = font("ComicNeue-Bold.otf", 44)
+F_SMALL = font("ComicNeue-Regular.otf", 36)
+F_SCRIPT = font("ComicNeue-Bold.otf", 130)
 
 BLACK = (20, 20, 20)
 GRAY = (90, 90, 90)
