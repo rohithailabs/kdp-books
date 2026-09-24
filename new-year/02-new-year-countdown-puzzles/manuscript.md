@@ -1,0 +1,38 @@
+# New Year Countdown: Puzzles & Games for Kids
+## Manuscript — Page-by-Page Content Plan
+
+Trim size: 8.5" x 8.5" | Interior: black line art only | 30 interior pages | Ages 4-8
+Structure: a literal countdown from 10 down to 1 runs through the page headers, with puzzles getting a little harder as the numbers get smaller — ending in a big "Happy New Year!" celebration, then bonus pages and answers.
+
+| Page # | Page Type | On-Page Text / Instructions | Notes |
+|---|---|---|---|
+| 1 | Title Page | **New Year Countdown**<br>*Puzzles & Games for Kids* | Bold countdown-style numeral display (10...1) worked into the title art. |
+| 2 | This Book Belongs To | **This Book Belongs To:**<br>_______________________________ | Blank line inside a clock-face themed frame. |
+| 3 | Parent/Caregiver Note | **A Note for Grown-Ups**<br>Welcome to New Year Countdown! This book counts down from 10 to 1, just like on New Year's Eve — and the puzzles get a little trickier as the numbers get smaller. You'll find mazes, dot-to-dots, word searches, spot-the-differences, matching games, and seek-and-find pictures. Work through the countdown together, and when you reach "1," get ready to celebrate! Answers for every puzzle are in the back of the book. | Plain text page with small clock/confetti corner accents. |
+| 4 | Section Header + Activity | **10... Ten Balloons to the Party!**<br>Help the balloons float through the maze to reach the party! | Easy maze, one simple path, minimal turns (warm-up difficulty). |
+| 5 | Activity | **9... Connect the Dots!**<br>Connect the dots from 1 to 9 to see what appears! | Dot-to-dot 1-9 revealing a simple party hat shape. Large widely-spaced dots for beginners. |
+| 6 | Activity | **8... Match the Noisemakers!**<br>Draw a line to match each noisemaker to its matching shadow. | 8 noisemakers on the left in a row, 8 shuffled black silhouette shadows on the right (one-to-one match). |
+| 7 | Activity | **7... I Spy at the Party!**<br>Look at the party picture. Can you find: 7 balloons, 3 party hats, 2 dogs, and 1 clock? | Busy but readable party scene; a checklist with small icons runs along the bottom for the child to tick off. |
+| 8 | Activity | **6... Spot the Difference!**<br>These two confetti pictures look the same. Can you find 5 things that are different? | Two nearly identical confetti-scene illustrations side by side; 5 clear, kid-findable differences (easy tier). |
+| 9 | Activity | **5... Word Search!**<br>Find these New Year words: HAT, TEN, NEW, POP, JOY | Simple 6x6 letter grid, words placed horizontally and vertically only (no diagonals, no backwards words) for early readers. Word list printed beneath the grid. |
+| 10 | Activity | **4... Puppy's Party Maze!**<br>Help the puppy find the path to the party! | Medium-difficulty maze with one extra false branch (single dead end) to add a little challenge. |
+| 11 | Activity | **3... Connect the Dots!**<br>Connect the dots from 1 to 20 to see what appears! | Dot-to-dot 1-20 revealing a large clock face. Numbers slightly closer together than page 5 (rising difficulty). |
+| 12 | Activity | **2... Match the Pairs!**<br>Draw a line to connect each pair of matching party hats. | 6 party hats (3 matching pairs) scattered in mixed order across the page; child draws lines connecting each pair. |
+| 13 | Activity | **1... Spot the Difference!**<br>These two firework pictures look the same. Can you find 7 things that are different?| Two nearly identical fireworks-over-the-city illustrations; 7 differences (harder tier — smaller/subtler changes than page 8). |
+| 14 | Celebration Page | **Happy New Year!**<br>We made it to ONE! Color the big fireworks and shout Happy New Year! | Full-page celebratory fireworks scene, available to color, marking the end of the literal countdown. |
+| 15 | Activity | **I Spy the Parade!**<br>Look at the New Year's parade. Can you find: 6 flags, 4 balloons, 3 horns, and 2 drums? | Busier parade scene than page 7 (more items, smaller details) — moderate-hard I-spy. |
+| 16 | Activity | **Word Search!**<br>Find these New Year words: CLOCK, PARTY, DANCE, CONFETTI, MIDNIGHT, HORN, STAR, BALLOON | 8x8 letter grid, horizontal, vertical, and vertical-down only (still no diagonals), for growing readers. Word list beneath grid. |
+| 17 | Activity | **Mouse's Calendar Maze!**<br>Help the little mouse race through the calendar pages to reach New Year's Day! | Harder maze with two false branches and a longer winding path (upper difficulty tier for ages 6-8). |
+| 18 | Activity | **Connect the Dots!**<br>Connect the dots from 1 to 30 to see what appears! | Dot-to-dot 1-30 revealing a large firework burst; dots spaced closer together and numbers smaller (hardest dot-to-dot in the book). |
+| 19 | Activity | **Count and Match!**<br>Count how many are in each group. Draw a line to the matching number. | Four small groups of party items (balloons, hats, horns, stars) in quantities up to 10; four numeral cards (scrambled order) to match by drawing connecting lines. |
+| 20 | Activity | **Spot the Difference!**<br>These two balloon-bunch pictures look the same. Can you find 8 things that are different? | Two nearly identical balloon-cluster illustrations; 8 differences, smallest/subtlest in the book (hardest spot-the-difference). |
+| 21 | Activity | **I Spy at Midnight!**<br>Look at the busy countdown party. Can you find: 10 confetti pieces, 5 noisemakers, 3 clocks, and 1 disco ball banner? | Densest, most detail-rich I-spy scene in the book (hardest tier). |
+| 22 | Activity | **Word Search!**<br>Find these New Year words: CELEBRATE, COUNTDOWN, FIREWORKS, RESOLUTION, SPARKLER, TOAST, CALENDAR, GLITTER, JANUARY, WISHES | 10x10 letter grid, all directions including diagonals for the oldest readers (hardest word search in the book). Word list beneath grid. |
+| 23 | Activity | **Balloon Number Maze!**<br>Find the path through the maze to reach the number 1 balloon! | Hardest maze in the book: multiple false branches, longest path, smallest corridor width appropriate for ages 7-8. |
+| 24 | Bonus Coloring Page | **Big Fireworks Bonus!**<br>Take a break and color this giant fireworks scene! | Full-page relaxing coloring scene (no puzzle) as a breather after the hardest activities. |
+| 25 | Bonus Coloring Page | **Party Animals Bonus!**<br>Color the animals celebrating the New Year together! | Second bonus coloring scene — animals in party hats around a banner — before closing pages. |
+| 26 | Certificate | **Great Job!**<br>This certifies that<br>_______________________________<br>counted down and solved every puzzle in this book!<br>Happy New Year! | Certificate with clock/firework decorative border and blank line for child's name. |
+| 27 | Answer Key | **Answer Key: Mazes**<br>Page 4, Page 10, Page 17, Page 23 — solved paths shown below. | Four small thumbnail mazes with the correct path traced as a dashed line. |
+| 28 | Answer Key | **Answer Key: Dot-to-Dots**<br>Page 5 (1-9): a party hat. Page 11 (1-20): a clock. Page 18 (1-30): a firework burst.<br>Check your picture against these! | Three small completed thumbnail images of the finished dot-to-dot pictures. |
+| 29 | Answer Key | **Answer Key: Word Searches**<br>Page 9, Page 16, Page 22 — every word is circled below. | Three small thumbnail grids with each word search's words circled. |
+| 30 | Answer Key | **Answer Key: Spot the Difference, Matching & Count**<br>Page 8, Page 13, and Page 20 differences are circled below. Page 6 and Page 12 matches, and the Page 19 count-and-match, are shown with connecting lines. | Small thumbnail panels showing circled differences and correctly drawn connector lines for each referenced page. |
