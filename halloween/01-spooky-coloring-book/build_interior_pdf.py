@@ -121,6 +121,38 @@ def page_title_page():
     return img
 
 
+def page_copyright():
+    img = new_page()
+    d = ImageDraw.Draw(img)
+    y = 900
+    lines = [
+        (F_BODY_BOLD, "Spooky Fun: My First Halloween Coloring Book"),
+        (F_BODY, ""),
+        (F_BODY, "Copyright © 2026 Rohith AI Labs. All rights reserved."),
+        (F_BODY, ""),
+        (F_SMALL,
+         "No part of this publication may be reproduced, distributed, or "
+         "transmitted in any form or by any means, including photocopying, "
+         "recording, or other electronic or mechanical methods, without the "
+         "prior written permission of the publisher, except for brief "
+         "excerpts used in a review."),
+        (F_BODY, ""),
+        (F_SMALL,
+         "The illustrations in this book were created with the assistance "
+         "of AI image-generation tools, curated and arranged by Rohith AI "
+         "Labs."),
+        (F_BODY, ""),
+        (F_SMALL, "Published by Rohith AI Labs."),
+        (F_SMALL, "First Edition, 2026."),
+    ]
+    for fnt, text in lines:
+        if text == "":
+            y += 30
+            continue
+        y = draw_center_text(d, text, y, fnt, max_width=1900) + 10
+    return img
+
+
 def page_belongs_to():
     img = new_page()
     d = ImageDraw.Draw(img)
@@ -179,7 +211,10 @@ def coloring_page(n):
         box_top = 320
         box_size = PAGE - box_top - MARGIN - 60
     place_art(img, art_path, box_size, box_top)
-    draw_page_number(d, n)
+    # printed number reflects physical position (1 extra front-matter page,
+    # the copyright page, was inserted ahead of these since art files were
+    # generated/named against the original numbering)
+    draw_page_number(d, n + 1)
     return img
 
 
@@ -206,13 +241,14 @@ def page_certificate():
 def main():
     pages = []
     pages.append(page_title_page())
+    pages.append(page_copyright())
     pages.append(page_belongs_to())
     pages.append(page_parent_note())
     for n in range(4, 44):
         pages.append(coloring_page(n))
     pages.append(page_certificate())
 
-    assert len(pages) == 44, len(pages)
+    assert len(pages) == 45, len(pages)
     first, rest = pages[0], pages[1:]
     first.save(OUT, save_all=True, append_images=rest, resolution=300.0)
     print("Wrote", OUT, "pages:", len(pages))
