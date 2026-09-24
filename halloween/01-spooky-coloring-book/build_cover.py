@@ -13,18 +13,18 @@ BG = os.path.join(HERE, "external-art", "cover-background-external.jpg")
 OUT = os.path.join(HERE, "Spooky_Fun_Cover_Front.png")
 
 PAGE = 2550
-FONT_DIR = "/usr/share/fonts/truetype/dejavu"
+FONT_DIR = "/usr/share/fonts/opentype/comic-neue"
 
 
 def font(path, size):
     return ImageFont.truetype(os.path.join(FONT_DIR, path), size)
 
 
-F_TITLE = font("DejaVuSans-Bold.ttf", 270)
-F_SUB = font("DejaVuSans-Bold.ttf", 88)
-F_BADGE_SM = font("DejaVuSans-Bold.ttf", 54)
-F_SEAL_LABEL = font("DejaVuSans-Bold.ttf", 40)
-F_SEAL_NUM = font("DejaVuSans-Bold.ttf", 66)
+F_TITLE = font("ComicNeue-Bold.otf", 320)
+F_SUB = font("ComicNeue-Bold.otf", 100)
+F_BADGE_SM = font("ComicNeue-Bold.otf", 60)
+F_SEAL_LABEL = font("ComicNeue-Bold.otf", 44)
+F_SEAL_NUM = font("ComicNeue-Bold.otf", 74)
 
 CREAM = (255, 247, 232)
 GOLD = (255, 200, 92)
